@@ -7,7 +7,7 @@ A Django REST API to create and manage notifications via Email, SMS, and In-App.
 ## Project Structure
 
 
-
+```
 Notification\_Service/
 │
 ├── Notifications/               # Django app
@@ -32,7 +32,7 @@ Notification\_Service/
 │
 ├── manage.py
 └── README.md
-
+```
 `
 
 ---
