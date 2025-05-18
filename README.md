@@ -49,7 +49,7 @@ Notification\_Service/
 
 1. Clone the repo:
    bash
-   git clone https://github.com/yourusername/Notifications.git
+   git clone https://github.com/kgwdhw-0/Notifications.git
    cd Notifications
 `
 
