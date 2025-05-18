@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notifications</title>
+</head>
+<body>
+    <h1>In-App Notifications for {{ user_id }}</h1>
+    {% if notifications %}
+        <ul>
+        {% for notif in notifications %}
+            <li>{{ notif.message }} ({{ notif.created_at }})</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No notifications yet.</p>
+    {% endif %}
+</body>
+</html>
